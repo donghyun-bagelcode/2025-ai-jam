@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": 292.5,
-    "y": 238.0
+    "x": -1044.5,
+    "y": -490.0
   },
-  "zoomFactor": 0.25,
+  "zoomFactor": 1.0,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -331,9 +331,9 @@
             "당과의 어린 시절 친구들과의 추억을 통해 그녀의 성격을 더 깊이 탐구한다."
           ],
           "connections": [
-            45,
-            -999,
-            -999
+            46,
+            47,
+            48
           ],
           "SelectionCount": 3
         }
@@ -359,8 +359,8 @@
     },
     {
       "id": 45,
-      "x": 1730.0,
-      "y": 552.0,
+      "x": 2082.0,
+      "y": 688.0,
       "nodeType": 3,
       "coroutineData": {
         "coroutines": []
@@ -370,6 +370,84 @@
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 46,
+      "x": 1747.0,
+      "y": 533.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "right",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            45
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 47,
+      "x": 1748.0,
+      "y": 756.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "right",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            45
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 48,
+      "x": 1748.0,
+      "y": 983.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "right",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            45
           ],
           "SelectionCount": 1
         }

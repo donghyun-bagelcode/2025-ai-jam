@@ -55,3 +55,31 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: fb306fbabf8d4436aa48087d1a603daf, type: 3}
       index: 9
       isKeyDuplicated: 0
+    - Key: CHAPTER_01
+      Value: {fileID: 21300000, guid: 2d9fd37e5f01443f2b5b5c1ac1b064b7, type: 3}
+      index: 10
+      isKeyDuplicated: 0
+    - Key: CHAPTER_01_2
+      Value: {fileID: 21300000, guid: 58e6f9cf1e8c14614ac9f038acd74520, type: 3}
+      index: 11
+      isKeyDuplicated: 0
+    - Key: CHAPTER_02
+      Value: {fileID: 21300000, guid: d8ce93fed6554454a9b6a02b12e0866f, type: 3}
+      index: 12
+      isKeyDuplicated: 0
+    - Key: CHAPTER_03
+      Value: {fileID: 21300000, guid: 64edfb96f257744e49a85191a9c5bc4e, type: 3}
+      index: 13
+      isKeyDuplicated: 0
+    - Key: CHAPTER_04
+      Value: {fileID: 21300000, guid: e1002481f5b9d478a83171e151f456f0, type: 3}
+      index: 14
+      isKeyDuplicated: 0
+    - Key: CHAPTER_05
+      Value: {fileID: 21300000, guid: 322afd5195ffa4f2d9a4703e1a710b93, type: 3}
+      index: 15
+      isKeyDuplicated: 0
+    - Key: CHAPTER_06
+      Value: {fileID: 21300000, guid: 61b75f75246ad42e6a30a5dc1f4735b0, type: 3}
+      index: 16
+      isKeyDuplicated: 0
