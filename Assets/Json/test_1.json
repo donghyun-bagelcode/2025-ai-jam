@@ -1,0 +1,495 @@
+{
+  "position": {
+    "x": 299.5,
+    "y": 160.5
+  },
+  "zoomFactor": 0.25,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 1,
+      "x": 107.0,
+      "y": -223.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Garden_01",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "어느 흐린 날 아침, 당과는 무거운 마음을 안고 방을 나섰다. 그녀의 긴 흑발이 바람에 살짝 휘날리며,",
+          "speed": 0.02,
+          "connections": [
+            2
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 2,
+      "x": 457.0,
+      "y": -223.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "짙은 갈색 눈동자에 결의가 서렸다. 사천당가의 후계자로서, 그녀는 가족을 잃은 복수심에 불타올라",
+          "speed": 0.02,
+          "connections": [
+            3
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 3,
+      "x": 807.0,
+      "y": -223.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "무협 세계의 음모를 파헤치기로 결심했다.",
+          "speed": 0.02,
+          "connections": [
+            4
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 4,
+      "x": 1157.0,
+      "y": -223.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당과는 방을 나서며, 가족들의 사진이 걸린 벽을 한 번 더 바라보았다. 그녀의 손끝이 미세하게 떨렸다.",
+          "speed": 0.02,
+          "connections": [
+            5
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 5,
+      "x": 1507.0,
+      "y": -223.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "복수의 길은 험난할 것이었지만, 그녀는 두려워하지 않았다. 그녀의 목표는 분명했다. 정의로운 세상을 만드는 것,",
+          "speed": 0.02,
+          "connections": [
+            6
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "x": 107.0,
+      "y": 177.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그리고 가족의 원수를 갚는 것이었다.",
+          "speed": 0.02,
+          "connections": [
+            7
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 7,
+      "x": 457.0,
+      "y": 177.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "Party_01",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "복도를 지나며, 그녀는 철한과 마주쳤다. 철한은 그녀의 결의를 알아챈 듯 고개를 끄덕이며 말했다.",
+          "speed": 0.02,
+          "connections": [
+            8
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 8,
+      "x": 807.0,
+      "y": 177.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "test1",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "철한",
+          "subName": "",
+          "script": "당과, 준비는 되었소? 이번 여정은 쉽지 않을 것이오.",
+          "speed": 0.02,
+          "connections": [
+            9
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 9,
+      "x": 1157.0,
+      "y": 177.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "ghost",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당과",
+          "subName": "",
+          "script": "철한, 당신과 함께라면 무엇이든 해낼 수 있을 것 같소. 우리 함께 이 음모를 밝혀내요.",
+          "speed": 0.02,
+          "connections": [
+            10
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 10,
+      "x": 1507.0,
+      "y": 177.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "철한은 부드러운 미소로 응답하며, 그녀의 어깨를 가볍게 두드렸다.",
+          "speed": 0.02,
+          "connections": [
+            11
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 11,
+      "x": 107.0,
+      "y": 577.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "철한",
+          "subName": "",
+          "script": "그렇다면 출발합시다. 무림의 진실이 우리를 기다리고 있소.",
+          "speed": 0.02,
+          "connections": [
+            12
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 12,
+      "x": 457.0,
+      "y": 577.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그들은 무림의 진실을 향해 나아가기로 결심하며, 함께 문을 나섰다. 이 순간부터, 그들의 여정은 시작되었다.",
+          "speed": 0.02,
+          "connections": [
+            13
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 13,
+      "x": 807.0,
+      "y": 577.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "당과는 철한과 함께 무림의 진실을 찾기 위해 출발한다.",
+            "당과는 철한에게 잠시 기다리라고 하고, 먼저 가족의 무덤을 찾아간다.",
+            "당과는 철한과 함께 난호를 찾아가 그녀의 조언을 구한다."
+          ],
+          "connections": [
+            14,
+            -999,
+            -999
+          ],
+          "SelectionCount": 3
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": -207.0,
+      "y": -49.5,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 14,
+      "x": 1143.5,
+      "y": 671.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

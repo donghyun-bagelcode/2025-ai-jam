@@ -43,3 +43,15 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: 2770384bc86134c88bf7fa0eaaf763ee, type: 3}
       index: 6
       isKeyDuplicated: 0
+    - Key: Garden_01
+      Value: {fileID: 21300000, guid: c15899c99eca04a1481b3c2c6152f9d9, type: 3}
+      index: 7
+      isKeyDuplicated: 0
+    - Key: Party_01
+      Value: {fileID: 21300000, guid: dddd6013b1c514f63ac1db9a8c100c6c, type: 3}
+      index: 8
+      isKeyDuplicated: 0
+    - Key: Title
+      Value: {fileID: 21300000, guid: fb306fbabf8d4436aa48087d1a603daf, type: 3}
+      index: 9
+      isKeyDuplicated: 0
