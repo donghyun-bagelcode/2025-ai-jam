@@ -1,0 +1,50 @@
+{
+  "position": {
+    "x": 257.0,
+    "y": 37.0
+  },
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": -1,
+      "x": 0.0,
+      "y": 0.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "메인화면으로 돌아갑니다.",
+          "speed": 0.05,
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 1,
+      "x": 381.0,
+      "y": 66.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+.loading {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background-image: url("project://database/Assets/3rd%20Party/AI-Panel/Editor/World/Loading.png?fileID=2800000&guid=0b0c4be37ade24231a3d07d4bf2c5ea4&type=3#Loading");
+    -unity-text-align: upper-center;
+}
+
+.root {
+    padding: 10px;
+    width: 100%;
+}
+
+.header {
+    padding: 5px;
+    font-size: 20px;
+    -unity-font-style: bold;
+}
+
+.title {
+    padding: 5px;
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.input {
+    padding: 5px;
+}
+
+.input > #unity-text-input {
+    opacity: 1;
+    padding: 5px;
+    visibility: visible;
+    display: flex;
+    font-size: 14px;
+    min-height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    white-space: normal;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(40, 40, 40);
+    border-right-color: rgb(40, 40, 40);
+    border-top-color: rgb(40, 40, 40);
+    border-bottom-color: rgb(40, 40, 40);
+}
+
+.input-multi {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-left-color: rgb(40, 40, 40);
+    border-right-color: rgb(40, 40, 40);
+    border-top-color: rgb(40, 40, 40);
+    border-bottom-color: rgb(40, 40, 40);
+}
+
+.input-multi TextField > #unity-text-input {
+    opacity: 1;
+    padding: 5px;
+    min-height: 80px;
+    flex-grow: 1;
+    visibility: visible;
+    display: flex;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    white-space: normal;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgba(40, 40, 40, 0);
+    border-right-color: rgba(40, 40, 40, 0);
+    border-top-color: rgba(40, 40, 40, 0);
+    border-bottom-color: rgba(40, 40, 40, 0);
+}
+
+.button-to-right {
+    width: 200px;
+    align-self: flex-end;
+}
+
+.button {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 15px;
+}

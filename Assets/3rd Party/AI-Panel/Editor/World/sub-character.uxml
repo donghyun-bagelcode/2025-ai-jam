@@ -1,0 +1,139 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/3rd%20Party/AI-Panel/Editor/World/common-character.uss?fileID=7433441132597879392&amp;guid=c2ade0239f6584fad84fa8af3dd88fbb&amp;type=3#common-character" />
+    <ui:VisualElement class="main-character-cell" style="flex-grow: 1; border-left-color: rgb(100, 100, 100); border-right-color: rgb(100, 100, 100); border-top-color: rgb(100, 100, 100); border-bottom-color: rgb(100, 100, 100);">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+            <ui:Button text="새로고침" parse-escape-sequences="true" display-tooltip-when-elided="true" name="refresh" />
+            <ui:Button text="삭제" parse-escape-sequences="true" display-tooltip-when-elided="true" name="remove" />
+        </ui:VisualElement>
+        <ui:VisualElement name="information" class="main-character-information" style="flex-grow: 1; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+            <ui:Label tabindex="-1" text="기본 정보" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" class="title" style="align-self: center; margin-top: 4px;" />
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="이름" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="name" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="나이" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="age" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="성별" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="gender" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="직업 및 신분" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="occupation" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="배경 및 서사" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="background" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="appearance" class="main-character-information" style="flex-grow: 1; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+            <ui:Label tabindex="-1" text="외모" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" class="title" style="align-self: center; margin-top: 20px;" />
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="머리 색" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="hair-color" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="머리 스타일" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="hair-style" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="눈 색" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="eye-color" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="피부 색" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="skin-color" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="상징적 특징" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="traits" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="의상" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="outfit" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="체형" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="physique" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="personality" class="main-character-information" style="flex-grow: 1; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;">
+            <ui:Label tabindex="-1" text="성격" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title" class="title" style="align-self: center; margin-top: 20px;" />
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="기본 성격" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="default-personality" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="매력 포인트" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="charm-point" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="main-character-item" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement class="label-category" style="flex-grow: 1;">
+                    <ui:Label tabindex="-1" text="결함" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="weakness" class="input" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; height: 50px;" />
+</ui:UXML>

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1a1534eacb25df4894bfebd141cbc5b, type: 3}
+  m_Name: BackgroundDatabase
+  m_EditorClassIdentifier: 
+  backgroundPrefab: {fileID: 363526241784019099, guid: 0d8528518c7bc8d45b338a92cb8cdf5b, type: 3}
+  backgrounds:
+    dictionaryList:
+    - Key: apple
+      Value: {fileID: 21300000, guid: f2059edd472ac18459fa5b3f2853d1e7, type: 3}
+      index: 0
+      isKeyDuplicated: 0
+    - Key: black
+      Value: {fileID: 21300000, guid: 98ce6999eb258f946b992d5b6cfae8a9, type: 3}
+      index: 1
+      isKeyDuplicated: 0
+    - Key: forest
+      Value: {fileID: 21300000, guid: b68c0a86eb68c0345970b246a66d1549, type: 3}
+      index: 2
+      isKeyDuplicated: 0
+    - Key: red
+      Value: {fileID: 21300000, guid: b7dfcadf9cde0464ea2e36c0ec296aeb, type: 3}
+      index: 3
+      isKeyDuplicated: 0
+    - Key: ruin
+      Value: {fileID: 21300000, guid: 9813819b372f92140bb1c4bf4b79a353, type: 3}
+      index: 4
+      isKeyDuplicated: 0
+    - Key: test1
+      Value: {fileID: 21300000, guid: 4f95f111d64ce4d8cb6f99d2c2f67ede, type: 3}
+      index: 5
+      isKeyDuplicated: 0
+    - Key: test2
+      Value: {fileID: 21300000, guid: 2770384bc86134c88bf7fa0eaaf763ee, type: 3}
+      index: 6
+      isKeyDuplicated: 0

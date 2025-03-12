@@ -1,0 +1,112 @@
+{
+  "position": {
+    "x": 252.0,
+    "y": 51.0
+  },
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": -1,
+      "x": 0.0,
+      "y": 0.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "sample",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "sample",
+          "subName": null,
+          "script": "캐릭터를 이렇게 등장시킬 수 있습니다.",
+          "speed": 0.05,
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 1,
+      "x": 364.0,
+      "y": 2.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "sample",
+          "subName": null,
+          "script": "대사를 이렇게 입력할 수 있습니다.",
+          "speed": 0.05,
+          "connections": [
+            2
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 2,
+      "x": 731.0,
+      "y": 1.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement class="input-multi" style="flex-grow: 1;">
+        <ui:TextField picking-mode="Ignore" multiline="true" name="input" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,50 @@
+{
+  "position": {
+    "x": 355.0,
+    "y": 124.0
+  },
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": -1,
+      "x": 0.0,
+      "y": 0.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "dice",
+          "subName": null,
+          "script": "주사위를 성공했습니다.",
+          "speed": 0.05,
+          "connections": [
+            0
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 0,
+      "x": 427.0,
+      "y": 100.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

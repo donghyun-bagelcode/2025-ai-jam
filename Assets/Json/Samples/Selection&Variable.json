@@ -1,0 +1,669 @@
+{
+  "position": {
+    "x": -713.0,
+    "y": 172.0
+  },
+  "zoomFactor": 0.571753263,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 5,
+      "x": 1328.0,
+      "y": 17.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "길을 걷는데 앞에 누가 보였다.",
+          "speed": 0.02,
+          "connections": [
+            6
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 10,
+      "x": 2502.0,
+      "y": 287.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "gameover",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "갑자기 폭주하더니 나를 공격하기 시작했다.",
+          "speed": 0.02,
+          "connections": [
+            13
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "x": 1619.0,
+      "y": -79.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "ghost",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "귀신",
+          "subName": null,
+          "script": "사과 하나 주면 안잡아먹지",
+          "speed": 0.02,
+          "connections": [
+            7
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 2,
+      "x": 223.0,
+      "y": 4.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "사과를 줍는다.",
+            "무시하고 지나간다."
+          ],
+          "connections": [
+            3,
+            4
+          ],
+          "SelectionCount": 2
+        }
+      }
+    },
+    {
+      "id": 1,
+      "x": -101.0,
+      "y": -3.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeForegroundUnit, Assembly-CSharp",
+            "backgroundImage": "apple",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 0.5,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "걷다가 길에 떨어진 사과를 발견했다. ",
+          "speed": 0.02,
+          "connections": [
+            2
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": -440.0,
+      "y": -4.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "forest",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          },
+          {
+            "$type": "SetActiveNavigationUnit, Assembly-CSharp",
+            "isActive": true,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "늦은 밤 길을 걷고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            1
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 9,
+      "x": 2212.0,
+      "y": 287.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "내가 먹을 건데 왜 줘야돼?",
+          "speed": 0.02,
+          "connections": [
+            10
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 15,
+      "x": 2211.0,
+      "y": 622.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "가진 사과가 없어서 사과를 줄 수 없다.",
+          "speed": 0.02,
+          "connections": [
+            10
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 4,
+      "x": 908.0,
+      "y": 244.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "apple",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteForegroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "땅에 떨어진 사과는 흥미가 없다",
+          "speed": 0.02,
+          "connections": [
+            5
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 3,
+      "x": 592.0,
+      "y": -238.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "apple",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteForegroundUnit, Assembly-CSharp",
+            "backgroundImage": null,
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "<color=#FFFF00> [사과를 획득했다]</color>",
+          "speed": 0.02,
+          "connections": [
+            14
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 14,
+      "x": 953.0,
+      "y": -100.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "사과를 주워들고 앞으로 나아갔다.",
+          "speed": 0.02,
+          "connections": [
+            5
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 11,
+      "x": 3024.0,
+      "y": -181.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "gameover",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": null,
+          "script": "사과를 받고 사라졌다.",
+          "speed": 0.02,
+          "connections": [
+            13
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 8,
+      "x": 2733.0,
+      "y": -183.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "귀신",
+          "subName": null,
+          "script": "잘 먹을게 고마워",
+          "speed": 0.02,
+          "connections": [
+            11
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 16,
+      "x": 2206.0,
+      "y": -95.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": null,
+          "script": "사과를 귀신에게 전달했다.",
+          "speed": 0.02,
+          "connections": [
+            17
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 17,
+      "x": 2464.0,
+      "y": -259.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "apple",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": null,
+          "script": "<color=#FFFF00>[가지고 있던 사과가 사라졌다]</color>",
+          "speed": 0.02,
+          "connections": [
+            8
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 7,
+      "x": 1914.0,
+      "y": -95.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.VariableSelectionUnit, Assembly-CSharp",
+          "selections": [
+            {
+              "script": "사과를 준다",
+              "key": "apple",
+              "condition": 1,
+              "conditionResult": 0,
+              "value": 1
+            },
+            {
+              "script": "사과를 주지 않는다",
+              "key": "apple",
+              "condition": 1,
+              "conditionResult": 1,
+              "value": 1
+            },
+            {
+              "script": "줄 수 있는 사과가 없다",
+              "key": "apple",
+              "condition": 2,
+              "conditionResult": 1,
+              "value": 1
+            }
+          ],
+          "connections": [
+            16,
+            9,
+            15
+          ],
+          "SelectionCount": 3
+        }
+      }
+    },
+    {
+      "id": 13,
+      "x": 3321.0,
+      "y": 306.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
+            "fade": true,
+            "elapsedTime": 1.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": true
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

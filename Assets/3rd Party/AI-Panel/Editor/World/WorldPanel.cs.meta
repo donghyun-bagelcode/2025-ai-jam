@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 361ca64560dfe49309db8ec73c5889cc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - worldPanelAsset: {fileID: 9197481963319205126, guid: 75224b72fc2a4452eb52f52566c300e1, type: 3}
+  - mainCharacterAsset: {fileID: 9197481963319205126, guid: 39fa03589137445978b04fd0e7ee3e6a, type: 3}
+  - subCharacterAsset: {fileID: 9197481963319205126, guid: eed2e93fef4444f19a279fb56855e003, type: 3}
+  - characterPlotAsset: {fileID: 9197481963319205126, guid: 91a85863c05aa4e2497fde1f20380ff0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

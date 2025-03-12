@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="input-multi" src="project://database/Assets/3rd%20Party/AI-Panel/Editor/World/input-multi.uxml?fileID=9197481963319205126&amp;guid=0a992d91adc334f61876a3230b1c1042&amp;type=3#input-multi" />
+    <Style src="project://database/Assets/3rd%20Party/AI-Panel/Editor/World/world.uss?fileID=7433441132597879392&amp;guid=aa8df5f6770db485da24c07efb053ddf&amp;type=3#world" />
+    <ui:VisualElement name="world" style="flex-grow: 1;">
+        <ui:VisualElement class="root" style="flex-grow: 1;">
+            <ui:ScrollView name="MainScroll">
+                <ui:Label tabindex="-1" text="장르 및 키워드" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+                <ui:Label tabindex="-1" text="장르" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+                <ui:TextField picking-mode="Ignore" name="genre-input" class="input" />
+                <ui:Label tabindex="-1" text="키워드" parse-escape-sequences="true" display-tooltip-when-elided="true" class="title" />
+                <ui:TextField picking-mode="Ignore" name="keyword-input" class="input" />
+                <ui:Button text="로그라인 생성" parse-escape-sequences="true" display-tooltip-when-elided="true" name="logline-create-button" class="button button-to-right" />
+                <ui:Label tabindex="-1" text="로그라인" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+                <ui:Instance template="input-multi" name="logline-container" />
+                <ui:Button text="주연 프로필 생성" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main-character-create-button" class="button button-to-right" />
+                <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="주연 프로필" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+                    <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main-character-template-create-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="main-character-container" style="flex-grow: 1; width: 100%;" />
+                <ui:Button text="주연 줄거리 생성" parse-escape-sequences="true" display-tooltip-when-elided="true" name="main-character-plot-create-button" class="button button-to-right" />
+                <ui:Label tabindex="-1" text="주연 캐릭터 줄거리" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+                <ui:VisualElement name="main-character-plot-container" style="flex-grow: 1;" />
+                <ui:Button text="조연 프로필 생성" parse-escape-sequences="true" display-tooltip-when-elided="true" name="sub-character-create-button" class="button button-to-right" />
+                <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                    <ui:Label tabindex="-1" text="조연 프로필" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+                    <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="sub-character-template-create-button" />
+                </ui:VisualElement>
+                <ui:VisualElement name="sub-character-container" style="flex-grow: 1;" />
+                <ui:Button text="조연 줄거리 생성" parse-escape-sequences="true" display-tooltip-when-elided="true" name="sub-character-plot-create-button" class="button button-to-right" />
+                <ui:Label tabindex="-1" text="조연 캐릭터 줄거리" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+                <ui:VisualElement name="sub-character-plot-container" style="flex-grow: 1;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; height: 40px; min-height: 40px; max-height: 50px;">
+            <ui:VisualElement style="flex-grow: 1; align-self: stretch; flex-direction: row; align-items: center; justify-content: space-around; height: auto; min-height: auto;">
+                <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="save-button" enable-rich-text="true" class="button" style="white-space: nowrap; width: 200px; height: auto;" />
+                <ui:Button text="Load" parse-escape-sequences="true" display-tooltip-when-elided="true" name="load-button" class="button" style="width: 200px; height: auto;" />
+                <ui:Button text="Clear" parse-escape-sequences="true" display-tooltip-when-elided="true" name="clear-button" class="button" style="width: 200px; height: auto;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
