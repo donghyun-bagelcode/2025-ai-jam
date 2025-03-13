@@ -1,0 +1,760 @@
+{
+  "position": {
+    "x": -26.0,
+    "y": 353.5
+  },
+  "zoomFactor": 0.432327569,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 48,
+      "x": 547.5,
+      "y": -672.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "CHAPTER_01",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
+            "bgm": "chap1",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "사천당가의 웅장한 연회장은 귀족들과 무림의 인사들로 붐비고 있었다. 그들의 웅성거림 속에서,",
+          "speed": 0.02,
+          "connections": [
+            49
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 49,
+      "x": 897.5,
+      "y": -672.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화가 술병을 들고 등장했다. 그녀의 등장에 연회장은 일순간 조용해졌다.",
+          "speed": 0.02,
+          "connections": [
+            50
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 50,
+      "x": 1247.5,
+      "y": -672.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "father",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당가주",
+          "subName": "",
+          "script": "당연화, 또 술이냐! 이 중요한 연회에서 감히…!",
+          "speed": 0.02,
+          "connections": [
+            51
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 51,
+      "x": 1597.5,
+      "y": -672.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당설화",
+          "subName": "",
+          "script": "아버님, 막내가 또 가문의 위신을 떨어뜨리는군요.",
+          "speed": 0.02,
+          "connections": [
+            52
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 52,
+      "x": 1947.5,
+      "y": -672.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화는 비웃으며 술을 한 모금 마셨다. 위신? 그런 게 어디 있어? 어차피 날 쓰레기 취급하잖아?",
+          "speed": 0.02,
+          "connections": [
+            53
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 53,
+      "x": 547.5,
+      "y": -272.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "귀족 손님 A",
+          "subName": "",
+          "script": "저게 사천당가의 자녀라니… 정말 어처구니가 없군.",
+          "speed": 0.02,
+          "connections": [
+            54
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 54,
+      "x": 897.5,
+      "y": -272.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "귀족 손님 B",
+          "subName": "",
+          "script": "차기 가주는 당설화일 게 뻔하지. 저런 망나니에게 가주 자리는 사치지.",
+          "speed": 0.02,
+          "connections": [
+            55
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 55,
+      "x": 1247.5,
+      "y": -272.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "이청운",
+          "subName": "",
+          "script": "역시 너와의 약혼이 깨지길 잘했군. 넌 여전히 천방지축이야. 그런 널 누가 아내로 맞이하겠어?",
+          "speed": 0.02,
+          "connections": [
+            56
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 56,
+      "x": 1597.5,
+      "y": -272.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화는 술잔을 던지며 냉소적인 미소를 지었다. 너도 꺼져 이청운, 너 같은 놈이랑 약혼 깨진 게 다행이야!",
+          "speed": 0.02,
+          "connections": [
+            57
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 57,
+      "x": 1947.5,
+      "y": -272.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "넌 나보다 못난 놈이거든?",
+          "speed": 0.02,
+          "connections": [
+            58
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 60,
+      "x": 1247.5,
+      "y": 127.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당연화",
+          "subName": "",
+          "script": "…누구야?",
+          "speed": 0.02,
+          "connections": [
+            61
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 62,
+      "x": 1947.5,
+      "y": 127.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "첩자",
+          "subName": "",
+          "script": "사천당가의 망나니, 여기서 끝이다.",
+          "speed": 0.02,
+          "connections": [
+            63
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 63,
+      "x": 547.5,
+      "y": 527.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당연화",
+          "subName": "",
+          "script": "하아… 진짜? 이제야 재미있는 일이 생기네.",
+          "speed": 0.02,
+          "connections": [
+            64
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 64,
+      "x": 897.5,
+      "y": 527.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그 순간, 검광이 번뜩이며 첩자가 공격해왔다. 당연화는 빠르게 몸을 피하며 반격을 준비했다.",
+          "speed": 0.02,
+          "connections": [
+            65
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 65,
+      "x": 1247.5,
+      "y": 527.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "긴장감이 감도는 밤, 그녀의 운명은 이제 그녀의 손에 달려 있었다.",
+          "speed": 0.02,
+          "connections": [
+            66
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 66,
+      "x": 1597.5,
+      "y": 527.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "당연화는 첩자와 싸우며 그의 정체를 밝혀내려 한다.",
+            "당연화는 첩자의 공격을 피하며 도망친다."
+          ],
+          "connections": [
+            67,
+            68
+          ],
+          "SelectionCount": 2
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 208.0,
+      "y": -539.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            48
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 59,
+      "x": 897.5,
+      "y": 127.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그러나 어둠 속에서 기척이 느껴졌다.",
+          "speed": 0.02,
+          "connections": [
+            60
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 58,
+      "x": 547.5,
+      "y": 127.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "CHAPTER_01_2",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화는 연회장을 박차고 나가 밤의 정원으로 향했다. 차가운 바람이 그녀의 얼굴을 스쳤다.",
+          "speed": 0.02,
+          "connections": [
+            59
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 61,
+      "x": 1597.5,
+      "y": 127.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "killer",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "어둠 속에서 천마신교의 첩자가 모습을 드러냈다. 그의 목소리는 낮고 차가웠다.",
+          "speed": 0.02,
+          "connections": [
+            62
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 67,
+      "x": 1928.0,
+      "y": 565.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "select",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 68,
+      "x": 1926.5,
+      "y": 800.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "select",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

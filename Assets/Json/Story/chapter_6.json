@@ -1,0 +1,317 @@
+{
+  "position": {
+    "x": -1834.0,
+    "y": 1780.0
+  },
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 115,
+      "x": 2125.5,
+      "y": -1876.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "사천당가의 훈련장은 긴장감으로 가득했다. 당연화는 홀로 서서 오라비들과 당설화의 시선을 받으며 단호히 서 있었다.",
+          "speed": 0.02,
+          "connections": [
+            116
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 116,
+      "x": 2475.5,
+      "y": -1876.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀의 눈빛은 흔들림이 없었다.",
+          "speed": 0.02,
+          "connections": [
+            117
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 117,
+      "x": 2825.5,
+      "y": -1876.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당설화",
+          "subName": "",
+          "script": "망나니가 갑자기 훈련을 하겠다니. 흥미롭군.",
+          "speed": 0.02,
+          "connections": [
+            118
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 118,
+      "x": 3175.5,
+      "y": -1876.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당가주",
+          "subName": "",
+          "script": "당연화, 너의 실력을 증명해라. 그렇지 않으면 더 이상 가문의 일원으로 인정하지 않겠다.",
+          "speed": 0.02,
+          "connections": [
+            119
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 119,
+      "x": 3525.5,
+      "y": -1876.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화는 결연한 표정으로 고개를 끄덕였다. 그녀는 형제들과의 대련을 시작했다.",
+          "speed": 0.02,
+          "connections": [
+            120
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 120,
+      "x": 2125.5,
+      "y": -1476.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "예전과는 다른, 성장한 그녀의 움직임에 모두가 놀랐다.",
+          "speed": 0.02,
+          "connections": [
+            121
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 121,
+      "x": 2475.5,
+      "y": -1476.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "오라비 A",
+          "subName": "",
+          "script": "이게 진짜 당연화냐…?",
+          "speed": 0.02,
+          "connections": [
+            122
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 122,
+      "x": 2825.5,
+      "y": -1476.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당설화의 얼굴은 굳어졌다. 이 아이, 언제 이렇게…",
+          "speed": 0.02,
+          "connections": [
+            123
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 123,
+      "x": 3175.5,
+      "y": -1476.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화는 예전의 망나니가 아니었다. 그녀는 전생의 기억과 함께 단련된 실력을 보여주며 형제들을 압도했다.",
+          "speed": 0.02,
+          "connections": [
+            124
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 124,
+      "x": 3525.5,
+      "y": -1476.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀의 검은 번뜩였고, 그녀의 움직임은 날카로웠다.",
+          "speed": 0.02,
+          "connections": [
+            125
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 125,
+      "x": 2125.5,
+      "y": -1076.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당가주는 딸의 변화를 보며 고개를 끄덕였다.",
+          "speed": 0.02,
+          "connections": [
+            126
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 126,
+      "x": 2475.5,
+      "y": -1076.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "이제 당연화는 더 이상 가문의 망나니가 아닌, 진정한 일원으로 인정받을 준비가 되어 있었다.",
+          "speed": 0.02,
+          "connections": [
+            127
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 127,
+      "x": 2825.5,
+      "y": -1076.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "당연화는 훈련장에서의 성과를 바탕으로 가주의 인정을 받는다.",
+            "당연화는 훈련 후 당설화와의 갈등을 해결하기 위해 대화를 시도한다.",
+            "당연화는 훈련장에서의 성과를 바탕으로 천마신교에 대한 정보를 수집하기 시작한다."
+          ],
+          "connections": [
+            -999,
+            -999,
+            -999
+          ],
+          "SelectionCount": 3
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 1816.0,
+      "y": -1745.5,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            115
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

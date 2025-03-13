@@ -30,3 +30,39 @@ MonoBehaviour:
       Value: {fileID: 7915675542335162959, guid: f79e7983b7ae49843828708a9493a60a, type: 3}
       index: 3
       isKeyDuplicated: 0
+    - Key: fiance
+      Value: {fileID: 7915675542335162959, guid: e397fe4ff86e5438fab07b39d5356590, type: 3}
+      index: 4
+      isKeyDuplicated: 0
+    - Key: Heroine
+      Value: {fileID: 7915675542335162959, guid: 31898db950f804980a7246d22edd7e1f, type: 3}
+      index: 5
+      isKeyDuplicated: 0
+    - Key: killer
+      Value: {fileID: 7915675542335162959, guid: b7def5b83277a4a2f9b4917ee5c47a29, type: 3}
+      index: 6
+      isKeyDuplicated: 0
+    - Key: merchant
+      Value: {fileID: 7915675542335162959, guid: daa8d89c735e74fa58d3e0bcff86a4d5, type: 3}
+      index: 7
+      isKeyDuplicated: 0
+    - Key: secret
+      Value: {fileID: 7915675542335162959, guid: 07d277b90c833406a8a74d740d4848e0, type: 3}
+      index: 8
+      isKeyDuplicated: 0
+    - Key: sister
+      Value: {fileID: 7915675542335162959, guid: 638c16e3882174933bb23f87cab20109, type: 3}
+      index: 9
+      isKeyDuplicated: 0
+    - Key: father
+      Value: {fileID: 7915675542335162959, guid: 3700e62b8f3d742b28eb1d01e5e9e18e, type: 3}
+      index: 10
+      isKeyDuplicated: 0
+    - Key: heroine
+      Value: {fileID: 7915675542335162959, guid: 31898db950f804980a7246d22edd7e1f, type: 3}
+      index: 11
+      isKeyDuplicated: 0
+    - Key: tenma
+      Value: {fileID: 7915675542335162959, guid: 40c29e4a8c88146738a6233fac3bb655, type: 3}
+      index: 12
+      isKeyDuplicated: 0

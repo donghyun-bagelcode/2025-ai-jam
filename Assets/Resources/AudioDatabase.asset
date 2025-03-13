@@ -15,98 +15,84 @@ MonoBehaviour:
   bgmPrefab: {fileID: 5929753993158094903, guid: 9157a683c223746d8bb4f4350ac12787, type: 3}
   sfxPrefab: {fileID: 1081548495522584512, guid: 9c3efd5fd4e4749e6bbc91e229cd1fb1, type: 3}
   bgms:
-    _serializedList:
-    - Key: title
-      Value:
-        clip: {fileID: 8300000, guid: 67a555bde57007f4d96fb6c0c19bba36, type: 3}
-        maxVolume: 0.5
-    - Key: mystery
-      Value:
-        clip: {fileID: 8300000, guid: 1669473b37dae0743b6d57b021b75ec4, type: 3}
-        maxVolume: 0.5
-    - Key: mystery2
-      Value:
-        clip: {fileID: 8300000, guid: e84cd694395717944a58ed96fbdd31e0, type: 3}
-        maxVolume: 0.5
-    - Key: Serious
-      Value:
-        clip: {fileID: 8300000, guid: 84cae88532b896d4d828b5b2441da247, type: 3}
-        maxVolume: 0.5
-    - Key: underground
-      Value:
-        clip: {fileID: 8300000, guid: 185e24138386d1f41bd501cfbe6b6d0b, type: 3}
-        maxVolume: 0.5
-    - Key: battle
-      Value:
-        clip: {fileID: 8300000, guid: 7d5f87fcfd9676743804aabc232e9118, type: 3}
-        maxVolume: 0.5
-    - Key: monologue
-      Value:
-        clip: {fileID: 8300000, guid: d5eefba1cbe5ea44b992c47e5db44659, type: 3}
-        maxVolume: 0.5
-    - Key: peaceful
-      Value:
-        clip: {fileID: 8300000, guid: ac2cc8154d5c2474ea8864957ff15589, type: 3}
-        maxVolume: 0.5
-    - Key: sad ending
-      Value:
-        clip: {fileID: 8300000, guid: 1e717c72d1850a54eaf0196596214943, type: 3}
-        maxVolume: 0.5
-    - Key: tension
-      Value:
-        clip: {fileID: 8300000, guid: 3dcfc770ae9fa7d468caf9f330434151, type: 3}
-        maxVolume: 0.5
-    - Key: happy ending
-      Value:
-        clip: {fileID: 8300000, guid: 6e878eedb6d495b41b69eb7509c58460, type: 3}
-        maxVolume: 0.5
+    dictionaryList:
     - Key: bad ending
       Value:
         clip: {fileID: 8300000, guid: fcfd027adfad52c44b4fa62d7955961f, type: 3}
-        maxVolume: 0.5
-    - Key: tragedy
+        maxVolume: 1
+      index: 0
+      isKeyDuplicated: 0
+    - Key: battle
       Value:
-        clip: {fileID: 8300000, guid: 9dfdf908c752e1e409cae85a6fa81133, type: 3}
-        maxVolume: 0.5
-    - Key: wakeup
+        clip: {fileID: 8300000, guid: 7d5f87fcfd9676743804aabc232e9118, type: 3}
+        maxVolume: 1
+      index: 1
+      isKeyDuplicated: 0
+    - Key: battle 1
       Value:
-        clip: {fileID: 8300000, guid: ac4778ab3e940444e837ac541b3106d9, type: 3}
-        maxVolume: 0.4
-    - Key: ending
+        clip: {fileID: 8300000, guid: 6644b5c47f0724248b1e032ac8ac70e0, type: 3}
+        maxVolume: 1
+      index: 2
+      isKeyDuplicated: 0
+    - Key: chap1
       Value:
-        clip: {fileID: 8300000, guid: 28f3bc4aaa32baf4da2c7fca29e89595, type: 3}
-        maxVolume: 0.5
+        clip: {fileID: 8300000, guid: bb3176502b9fc4a80ae58ba1ef51fb2b, type: 3}
+        maxVolume: 1
+      index: 3
+      isKeyDuplicated: 0
+    - Key: chap2
+      Value:
+        clip: {fileID: 8300000, guid: 0fa354e805f754ef28ad69f2993dc57e, type: 3}
+        maxVolume: 1
+      index: 4
+      isKeyDuplicated: 0
+    - Key: chap3_4
+      Value:
+        clip: {fileID: 8300000, guid: 04a76ff56928b427f9362f29d90b9628, type: 3}
+        maxVolume: 1
+      index: 5
+      isKeyDuplicated: 0
+    - Key: chap5_7
+      Value:
+        clip: {fileID: 8300000, guid: a07d1b2dca1814143bd95d987424244c, type: 3}
+        maxVolume: 1
+      index: 6
+      isKeyDuplicated: 0
+    - Key: chap6
+      Value:
+        clip: {fileID: 8300000, guid: a72c33f1ad70a4232b64a68b2d340750, type: 3}
+        maxVolume: 1
+      index: 7
+      isKeyDuplicated: 0
+    - Key: chap8
+      Value:
+        clip: {fileID: 8300000, guid: d00cc17746a0c49efa70360d6f39d1e9, type: 3}
+        maxVolume: 1
+      index: 8
+      isKeyDuplicated: 0
+    - Key: chap9_10
+      Value:
+        clip: {fileID: 8300000, guid: 672c5f60afe354809b1e99920c7b22ce, type: 3}
+        maxVolume: 1
+      index: 9
+      isKeyDuplicated: 0
+    - Key: intro
+      Value:
+        clip: {fileID: 8300000, guid: 0bae9526157984a5897ff9cecbe99780, type: 3}
+        maxVolume: 1
+      index: 10
+      isKeyDuplicated: 0
   sfxs:
-    _serializedList:
-    - Key: ele
-      Value:
-        clip: {fileID: 8300000, guid: f23eb39b8f5f49e40b4f575526a2a9e2, type: 3}
-        maxVolume: 0.5
-    - Key: warning
-      Value:
-        clip: {fileID: 8300000, guid: 14df6a83f7e619f44bae5061e9b8de21, type: 3}
-        maxVolume: 0.5
-    - Key: card_open
-      Value:
-        clip: {fileID: 8300000, guid: 64008ce111fe0c44f8beafc13fbab2a4, type: 3}
-        maxVolume: 0.5
-    - Key: applause
-      Value:
-        clip: {fileID: 8300000, guid: 742824b17793caf43b95d34b0646c079, type: 3}
-        maxVolume: 0.5
-    - Key: sword1
-      Value:
-        clip: {fileID: 8300000, guid: 14f0ade1e3516ad43b2ab9cd764817df, type: 3}
-        maxVolume: 0.5
-    - Key: sword2
-      Value:
-        clip: {fileID: 8300000, guid: c59080f56ec858b4fa90784ec5f48d46, type: 3}
-        maxVolume: 0.5
+    dictionaryList:
     - Key: alarm
       Value:
         clip: {fileID: 8300000, guid: c4d3d58e2a424a140b69b0529e1500bf, type: 3}
-        maxVolume: 0.8
-    - Key: explosion
+        maxVolume: 1
+      index: 0
+      isKeyDuplicated: 0
+    - Key: ele
       Value:
-        clip: {fileID: 8300000, guid: 5a5e0ecf13a587c4c8daf8fb6919c474, type: 3}
-        maxVolume: 0.5
+        clip: {fileID: 8300000, guid: f23eb39b8f5f49e40b4f575526a2a9e2, type: 3}
+        maxVolume: 1
+      index: 1
+      isKeyDuplicated: 0

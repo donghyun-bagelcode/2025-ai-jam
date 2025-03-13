@@ -1,0 +1,284 @@
+{
+  "position": {
+    "x": -3806.5,
+    "y": 1964.5
+  },
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 161,
+      "x": 2981.5,
+      "y": -2414.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "CHAPTER_06",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "천마신교의 본거지, 거대한 석상이 있는 홀은 엄숙한 분위기로 가득 차 있었다.",
+          "speed": 0.02,
+          "connections": [
+            162
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 162,
+      "x": 3331.5,
+      "y": -2414.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "검은 망토를 두른 인물이 석상 앞에 무릎 꿇은 암살자를 내려다보고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            163
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 163,
+      "x": 3681.5,
+      "y": -2414.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "천마신교 고위 인물",
+          "subName": "",
+          "script": "그 아이가 죽지 않았다?",
+          "speed": 0.02,
+          "connections": [
+            164
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 164,
+      "x": 4031.5,
+      "y": -2414.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "암살자",
+          "subName": "",
+          "script": "그녀는… 상상 이상입니다. 전생의 기억을 가진 것처럼 싸웁니다.",
+          "speed": 0.02,
+          "connections": [
+            165
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 165,
+      "x": 4381.5,
+      "y": -2414.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "천마신교 교주",
+          "subName": "",
+          "script": "재밌군. 그럼 좀 더 흥미로운 방법으로 그녀를 맞이해줘야겠어.",
+          "speed": 0.02,
+          "connections": [
+            166
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 166,
+      "x": 2981.5,
+      "y": -2014.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "교주는 손가락을 튕기며 주변에 있는 신하들에게 명령을 내렸다. 그들의 계획은 이제 새로운 국면을 맞이하게 되었다.",
+          "speed": 0.02,
+          "connections": [
+            167
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 169,
+      "x": 4031.5,
+      "y": -2014.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "이제 당연화는 더 큰 시험대에 오르게 될 것이다. 그녀의 앞날은 더욱 험난해질 것이지만, 그녀는 결코 물러서지 않을 것이다.",
+          "speed": 0.02,
+          "connections": [
+            171
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 2666.5,
+      "y": -2286.5,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            161
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 168,
+      "x": 3681.5,
+      "y": -2014.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "천마신교의 어둠 속에서, 그들은 새로운 계획을 세우기 시작했다.",
+          "speed": 0.02,
+          "connections": [
+            169
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 167,
+      "x": 3331.5,
+      "y": -2014.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화는 단순한 상대가 아니었다. 그녀는 그들의 예상을 뛰어넘는 존재가 되어가고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            168
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 171,
+      "x": 4358.0,
+      "y": -1880.5,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

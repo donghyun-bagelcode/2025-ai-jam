@@ -83,3 +83,7 @@ MonoBehaviour:
       Value: {fileID: 21300000, guid: 61b75f75246ad42e6a30a5dc1f4735b0, type: 3}
       index: 16
       isKeyDuplicated: 0
+    - Key: gameover_pop
+      Value: {fileID: 21300000, guid: b719a5e1bf3064604a8d4e60d31b25ec, type: 3}
+      index: 17
+      isKeyDuplicated: 0

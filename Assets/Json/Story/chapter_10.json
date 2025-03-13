@@ -1,0 +1,295 @@
+{
+  "position": {
+    "x": -2409.5,
+    "y": 2297.0
+  },
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 138,
+      "x": 2735.5,
+      "y": -2396.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "사천당가의 외곽, 폭풍이 몰아치는 밤이었다. 두 세력은 서로를 마주 보고, 긴장된 침묵이 흐르고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            139
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 139,
+      "x": 3085.5,
+      "y": -2396.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당가주",
+          "subName": "",
+          "script": "천마신교, 너희의 선전포고로 받아들이겠다!",
+          "speed": 0.02,
+          "connections": [
+            140
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 140,
+      "x": 3435.5,
+      "y": -2396.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "천마신교 교주",
+          "subName": "",
+          "script": "선전포고가 아니라… 숙청이지.",
+          "speed": 0.02,
+          "connections": [
+            141
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 141,
+      "x": 3785.5,
+      "y": -2396.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그의 말이 끝남과 동시에, 천마신교의 전투원들이 전면전을 개시했다.",
+          "speed": 0.02,
+          "connections": [
+            142
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 142,
+      "x": 4135.5,
+      "y": -2396.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "두 세력은 거대한 충돌을 일으키며 격돌했다. 칼날이 부딪히고, 전투의 함성이 밤하늘을 가득 채웠다.",
+          "speed": 0.02,
+          "connections": [
+            143
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 143,
+      "x": 2735.5,
+      "y": -1996.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당연화",
+          "subName": "",
+          "script": "드디어 판이 제대로 벌어졌군.",
+          "speed": 0.02,
+          "connections": [
+            144
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 144,
+      "x": 3085.5,
+      "y": -1996.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀는 혼란 속에서도 침착함을 잃지 않았다. 그녀의 움직임은 빠르고 날카로웠고, 그녀의 결의는 흔들림이 없었다.",
+          "speed": 0.02,
+          "connections": [
+            145
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 145,
+      "x": 3435.5,
+      "y": -1996.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "이제 사천당가와 천마신교 간의 전쟁은 시작되었다. 이 싸움의 결과는 아무도 예측할 수 없었다.",
+          "speed": 0.02,
+          "connections": [
+            146
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 146,
+      "x": 3785.5,
+      "y": -1996.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그러나 당연화는 자신의 운명을 스스로 개척할 준비가 되어 있었다.",
+          "speed": 0.02,
+          "connections": [
+            147
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 147,
+      "x": 4135.5,
+      "y": -1996.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "격렬한 전투가 시작되며, 1막이 끝났다. 이 전쟁은 단순한 싸움이 아닌, 가문의 명예와 생존을 건 싸움이었다.",
+          "speed": 0.02,
+          "connections": [
+            148
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 148,
+      "x": 2735.5,
+      "y": -1596.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그리고 당연화는 그 중심에 서 있었다.",
+          "speed": 0.02,
+          "connections": [
+            149
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 149,
+      "x": 3085.5,
+      "y": -1596.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "당연화는 전투 중 천마신교의 교주와 맞서 싸운다.",
+            "당연화는 전투 중 가문의 안전을 위해 후방에서 지휘를 맡는다.",
+            "당연화는 전투 중 천마신교의 배후를 추적하기 위해 은밀히 움직인다."
+          ],
+          "connections": [
+            -999,
+            -999,
+            -999
+          ],
+          "SelectionCount": 3
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 2430.5,
+      "y": -2271.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            138
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}
