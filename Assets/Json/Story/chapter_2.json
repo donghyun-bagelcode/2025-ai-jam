@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -2234.0,
-    "y": 618.0
+    "x": -2154.5,
+    "y": 547.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
@@ -51,6 +51,74 @@
               "postWrapMode": 8
             },
             "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
+            "bgm": "chap2",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
+            "bgm": "chap2",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
           }
         ]
       },
@@ -61,6 +129,7 @@
           "subName": "",
           "script": "어두운 밤, 당연화는 절벽 끝에서 암살자와 치열한 싸움을 벌이고 있었다. 그녀는 피로 범벅이 된 채로",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             68
           ],
@@ -83,6 +152,7 @@
           "subName": "",
           "script": "암살자의 공격을 피하려 했지만, 결국 날카로운 칼날이 그녀의 옆구리를 스치고 지나갔다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             69
           ],
@@ -105,6 +175,7 @@
           "subName": "",
           "script": "고통에 몸을 움츠린 그녀는 절벽 아래로 떨어졌다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             70
           ],
@@ -161,6 +232,7 @@
           "subName": "",
           "script": "젠장… 이대로 끝이라고?",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             71
           ],
@@ -183,6 +255,7 @@
           "subName": "",
           "script": "하지만 그 순간, 그녀의 머릿속에 전생의 기억이 떠올랐다. 희미한 속삭임이 그녀의 의식을 감쌌다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             72
           ],
@@ -245,6 +318,7 @@
           "subName": "",
           "script": "넌 사천당가의 피를 이었으나, 버려진 존재였다… 기억해라, 네가 왜 죽었는지를.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             73
           ],
@@ -301,6 +375,7 @@
           "subName": "",
           "script": "당연화는 눈을 번쩍 뜨며, 손을 꽉 움켜쥐었다. 아니야… 이번엔 안 죽어… 이번 생에선 내가 끝까지 간다!",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             74
           ],
@@ -323,6 +398,7 @@
           "subName": "",
           "script": "떨어지던 그녀는 운 좋게도 절벽 아래 나무에 걸려 생존할 수 있었다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             75
           ],
@@ -345,6 +421,7 @@
           "subName": "",
           "script": "전생의 기억을 되찾은 그녀는 더 이상 예전의 망나니가 아니었다. 그녀는 강해질 것이고, 자신의 운명을 스스로 개척할 것이다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             79
           ],
@@ -378,11 +455,10 @@
       "coroutineData": {
         "coroutines": [
           {
-            "$type": "Dunward.Capricorn.SetRandomVariableUnit, Assembly-CSharp",
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
             "key": "select",
             "operation": 0,
-            "min": 0,
-            "max": 2,
+            "value": 0,
             "isWaitingUntilFinish": false
           }
         ]
@@ -412,6 +488,7 @@
           "subName": "",
           "script": "그녀는 아찔한 고통 속에서도 이를 악물고 몸을 일으켰다. 그녀의 앞에는 이제 새로운 길이 펼쳐져 있었다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             76
           ],

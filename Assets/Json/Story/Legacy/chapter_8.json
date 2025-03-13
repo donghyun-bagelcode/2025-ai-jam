@@ -1,0 +1,273 @@
+{
+  "position": {
+    "x": -2140.5,
+    "y": 1944.0
+  },
+  "zoomFactor": 1.0,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 138,
+      "x": 2779.5,
+      "y": -2068.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "사천당가의 가주 회의실은 긴장감으로 가득 차 있었다. 당가주와 당설화, 그리고 형제들이 둘러앉아 회의를 진행하고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            139
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 139,
+      "x": 3129.5,
+      "y": -2068.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당가주",
+          "subName": "",
+          "script": "이대로 당연화를 가만히 두면 안 된다.",
+          "speed": 0.02,
+          "connections": [
+            140
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 140,
+      "x": 3479.5,
+      "y": -2068.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당설화",
+          "subName": "",
+          "script": "그 아이, 천마신교와 무슨 관계가 있는 게 아닙니까?",
+          "speed": 0.02,
+          "connections": [
+            141
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 141,
+      "x": 3829.5,
+      "y": -2068.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "오라비",
+          "subName": "",
+          "script": "지금은 우리 가문의 적이 누구인지 먼저 판단해야 합니다.",
+          "speed": 0.02,
+          "connections": [
+            142
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 142,
+      "x": 4179.5,
+      "y": -2068.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당가주",
+          "subName": "",
+          "script": "그래, 이번 연무대회에서 그녀를 완전히 배제해야겠다.",
+          "speed": 0.02,
+          "connections": [
+            143
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 143,
+      "x": 2779.5,
+      "y": -1668.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "회의실 안은 무거운 침묵에 휩싸였다. 당가주는 딸의 성장을 인정하면서도 그녀가 가문에 미칠 수 있는 위험을 경계하고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            144
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 144,
+      "x": 3129.5,
+      "y": -1668.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당설화는 당연화가 천마신교와 연결되어 있을지도 모른다는 의심을 떨칠 수 없었다.",
+          "speed": 0.02,
+          "connections": [
+            145
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 145,
+      "x": 3479.5,
+      "y": -1668.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그러나 그들 중 누구도 당연화가 진정으로 어떤 계획을 세우고 있는지 알지 못했다.",
+          "speed": 0.02,
+          "connections": [
+            146
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 146,
+      "x": 3829.5,
+      "y": -1668.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀는 가문의 음모를 파헤치기 위해, 그리고 자신의 힘을 증명하기 위해 싸우고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            147
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 147,
+      "x": 4179.5,
+      "y": -1668.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "이제 그 싸움은 가족 내부의 갈등으로 번지고 있었다.",
+          "speed": 0.02,
+          "connections": [
+            148
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 148,
+      "x": 2779.5,
+      "y": -1268.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "당가주는 당연화를 연무대회에서 배제하기로 결정한다.",
+            "당설화는 당연화의 행동을 감시하기 위해 비밀리에 사람을 보낸다.",
+            "당가주는 내부의 배신자를 찾기 위해 조사를 시작한다."
+          ],
+          "connections": [
+            -999,
+            -999,
+            -999
+          ],
+          "SelectionCount": 3
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 2450.5,
+      "y": -1923.5,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            138
+          ],
+          "SelectionCount": 1
+        }
+      }
+    }
+  ]
+}

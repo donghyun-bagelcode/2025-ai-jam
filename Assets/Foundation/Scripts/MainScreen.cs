@@ -12,9 +12,12 @@ public class MainScreen : MonoBehaviour
     [SerializeField]
     private GameObject novel;
 
+    public AudioSource audioSource;
+
     private void Awake()
     {
         novel.GetComponent<NovelManager>().Initialize();
+        audioSource.Play();
     }
 
     public void StartNewGame()
@@ -22,6 +25,7 @@ public class MainScreen : MonoBehaviour
         gameObject.SetActive(false);
         novel.SetActive(true);
         mainFlow.StopAllCoroutines();
+        audioSource.Stop();
         CustomEvent.Trigger(mainFlow.gameObject, "OnStartNewGame");
     }
 }

@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -1089.0,
-    "y": 1559.0
+    "x": -3446.0,
+    "y": 845.5
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
@@ -12,7 +12,47 @@
       "y": -1692.0,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "CHAPTER_04",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -21,6 +61,7 @@
           "subName": "",
           "script": "어두운 사천당가의 문서고. 먼지가 쌓인 서가 사이로 당연화가 조심스럽게 발걸음을 옮겼다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             92
           ],
@@ -43,6 +84,7 @@
           "subName": "",
           "script": "그녀는 오래된 문서들을 뒤지며 한숨을 쉬었다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             93
           ],
@@ -65,30 +107,9 @@
           "subName": "",
           "script": "뭐 이렇게 지저분해? 대체 뭘 숨기려고 이리 오래된 문서를 놔두는 거야?",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             94
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 94,
-      "x": 2493.5,
-      "y": -1692.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그녀는 손끝에 닿는 낡은 서책을 발견했다. 표지에는 ‘사천당가 외교 기록’이라고 적혀 있었다.",
-          "speed": 0.02,
-          "connections": [
-            95
           ],
           "SelectionCount": 1
         }
@@ -109,30 +130,9 @@
           "subName": "",
           "script": "외교 기록? 그런데 이건… 사천당가와 천마신교 사이의 협약?",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             96
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 96,
-      "x": 1443.5,
-      "y": -1292.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "",
-          "subName": "",
-          "script": "그녀는 문서를 펼치려던 순간, 어둠 속에서 인기척이 느껴졌다. 긴장한 그녀는 즉시 칼을 빼들었다.",
-          "speed": 0.02,
-          "connections": [
-            97
           ],
           "SelectionCount": 1
         }
@@ -151,32 +151,11 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "정체불명 인물",
           "subName": "",
-          "script": "연화님, 이런 곳에서 뭘 하고 계십니까?",
+          "script": "...",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             98
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 98,
-      "x": 2143.5,
-      "y": -1292.0,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "당연화",
-          "subName": "",
-          "script": "누구냐?!",
-          "speed": 0.02,
-          "connections": [
-            99
           ],
           "SelectionCount": 1
         }
@@ -197,8 +176,50 @@
           "subName": "",
           "script": "그녀는 어둠 속의 인물을 향해 칼을 겨누며 경계했다. 문서고의 고요한 공기 속에서 두 사람의 숨소리만이 들렸다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
             100
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 1104.0,
+      "y": -1561.0,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            91
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 94,
+      "x": 2493.5,
+      "y": -1692.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀는 손끝에 닿는 낡은 서책을 발견했다. 표지에는 ‘사천당가 외교 기록’이라고 적혀 있었다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            95
           ],
           "SelectionCount": 1
         }
@@ -219,17 +240,18 @@
           "subName": "",
           "script": "이제 당연화는 이 인물의 정체를 밝혀내야만 했다. 그가 적인지, 아군인지, 그녀의 손에 달려 있었다.",
           "speed": 0.02,
+          "script_2": null,
           "connections": [
-            101
+            103
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 101,
-      "x": 1443.5,
-      "y": -892.0,
+      "id": 103,
+      "x": 3188.5,
+      "y": -1288.0,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": []
@@ -238,32 +260,407 @@
         "action": {
           "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
           "scripts": [
-            "당연화는 정체불명 인물의 정체를 캐묻고, 그의 도움을 받기로 한다.",
-            "당연화는 인물을 추궁하여 문서고에서 무사히 빠져나갈 방법을 알아낸다.",
-            "당연화는 인물의 정체를 확인하지 못하고, 문서를 들고 도망친다."
+            "자세히 살펴본다.",
+            "그냥 지나친다."
           ],
           "connections": [
-            -999,
-            -999,
-            -999
+            105,
+            109
           ],
-          "SelectionCount": 3
+          "SelectionCount": 2
         }
       }
     },
     {
-      "id": -1,
-      "x": 1104.0,
-      "y": -1561.0,
-      "nodeType": 1,
+      "id": 105,
+      "x": 3603.0,
+      "y": -1466.0,
+      "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.StopBGMUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "당연화는 갑자기 날아드는 검광을 피하며 몸을 날렸다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            106
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 106,
+      "x": 3953.0,
+      "y": -1466.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀는 순간적으로 검을 뽑아들고, 공격을 준비했다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            107
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 107,
+      "x": 4303.0,
+      "y": -1466.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "killer",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "암살자",
+          "subName": "",
+          "script": "이번엔 확실하게 끝낸다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            108
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 108,
+      "x": 4653.0,
+      "y": -1466.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
+            "bgm": "battle 1",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당연화",
+          "subName": "",
+          "script": "또 너희냐? 천마신교가 이렇게까지 날 귀찮게 하다니, 몸값 좀 올려야겠네?",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            104
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 104,
+      "x": 4964.5,
+      "y": -1318.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "select",
+            "operation": 0,
+            "value": 0,
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
-            91
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 98,
+      "x": 2143.5,
+      "y": -1292.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당연화",
+          "subName": "",
+          "script": "누구냐?!",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            99
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 96,
+      "x": 1438.5,
+      "y": -1045.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.StopBGMUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "그녀는 문서를 펼치려던 순간, 어둠 속에서 인기척이 느껴졌다. 긴장한 그녀는 즉시 칼을 빼들었다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            97
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 109,
+      "x": 3601.5,
+      "y": -920.0,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": null,
+          "subName": null,
+          "script": "그림자는 빠르게 사라지고, 당연화는 문서를 읽고 무언가를 결심한 듯 품에 넣는다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            102
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 102,
+      "x": 3958.0,
+      "y": -922.0,
+      "nodeType": 3,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
+            "key": "select",
+            "operation": 0,
+            "value": 1,
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당연화",
+          "subName": null,
+          "script": "이건 아버지를 뵙고 내가 직접 확인해야겠어.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            -999
           ],
           "SelectionCount": 1
         }

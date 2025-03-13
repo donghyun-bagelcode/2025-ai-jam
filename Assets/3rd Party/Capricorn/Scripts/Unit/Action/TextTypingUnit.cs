@@ -20,6 +20,8 @@ namespace Dunward.Capricorn
         private bool skip = false;
         private bool isFinish = false;
 
+        public string script_2;
+
 #if UNITY_EDITOR
         public override void OnGUI()
         {
@@ -32,8 +34,9 @@ namespace Dunward.Capricorn
             subName = EditorGUILayout.TextField("Sub Name", subName);
             EditorGUILayout.LabelField("Script");
             script = EditorGUILayout.TextArea(script, style, GUILayout.MaxHeight(50));
-
             speed = EditorGUILayout.FloatField("Speed", Mathf.Max(speed, 0.001f));
+            EditorGUILayout.LabelField("Script 2");
+            script_2 = EditorGUILayout.TextArea(script_2, style, GUILayout.MaxHeight(50));
         }
 #endif
 
@@ -49,23 +52,33 @@ namespace Dunward.Capricorn
 
             var totalText = new System.Text.StringBuilder();
             var suffix = string.Empty;
+            var newScript = script;
 
-            for (int i = 0; i < script.Length; i++)
+            if (!string.IsNullOrEmpty(script_2))
+            {
+                var random = Random.Range(0, 2);
+                if (random == 0)
+                {
+                    newScript = script_2;
+                }
+            }
+
+            for (int i = 0; i < newScript.Length; i++)
             {
                 if (skip)
                 {
-                    args[2].SetText(script);
+                    args[2].SetText(newScript);
                     break;
                 }
 
-                if (script[i] == '<')
+                if (newScript[i] == '<')
                 {
                     var tag = string.Empty;
                     bool isClosingTag = false;
 
-                    while (script[i] != '>')
+                    while (newScript[i] != '>')
                     {
-                        tag += script[i];
+                        tag += newScript[i];
                         i++;
                     }
                     tag += '>';
@@ -102,7 +115,7 @@ namespace Dunward.Capricorn
                 }
                 else
                 {
-                    totalText.Append(script[i]);
+                    totalText.Append(newScript[i]);
                     args[2].SetText(string.Concat(totalText, suffix));
                     yield return new WaitForSeconds(speed);
                 }

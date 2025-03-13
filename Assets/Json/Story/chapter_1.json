@@ -1,9 +1,9 @@
 {
   "position": {
-    "x": -26.0,
-    "y": 353.5
+    "x": -267.5,
+    "y": 582.5
   },
-  "zoomFactor": 0.432327569,
+  "zoomFactor": 1.0,
   "debugNodeIndex": -1,
   "nodes": [
     {
@@ -55,6 +55,39 @@
           {
             "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
             "bgm": "chap1",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          },
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {
@@ -314,7 +347,47 @@
       "y": -272.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ShowCharacterUnit, Assembly-CSharp",
+            "character": "fiance",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -336,7 +409,41 @@
       "y": -272.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -446,7 +553,42 @@
       "y": 527.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
+            "bgm": "battle 1",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
@@ -531,7 +673,41 @@
       "y": 127.5,
       "nodeType": 2,
       "coroutineData": {
-        "coroutines": []
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.StopBGMUnit, Assembly-CSharp",
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
       },
       "actionData": {
         "action": {
