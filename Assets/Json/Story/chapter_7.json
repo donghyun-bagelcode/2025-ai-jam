@@ -390,7 +390,7 @@
             "$type": "Dunward.Capricorn.SetVariableUnit, Assembly-CSharp",
             "key": "select",
             "operation": 0,
-            "value": 1,
+            "value": 0,
             "isWaitingUntilFinish": false
           }
         ]

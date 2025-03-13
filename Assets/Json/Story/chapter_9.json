@@ -1,60 +1,21 @@
 {
   "position": {
-    "x": -3353.5,
-    "y": 2634.5
+    "x": -3447.5,
+    "y": 2622.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
   "nodes": [
     {
-      "id": 172,
+      "id": 185,
       "x": 3620.5,
       "y": -2604.5,
       "nodeType": 2,
       "coroutineData": {
         "coroutines": [
           {
-            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
-            "backgroundImage": "CHAPTER_01",
-            "position": {
-              "x": 0.0,
-              "y": 0.0
-            },
-            "scale": 1.0,
-            "fade": false,
-            "elapsedTime": 0.0,
-            "lerpCurve": {
-              "keys": [
-                {
-                  "time": 0.0,
-                  "value": 0.0,
-                  "inTangent": 0.0,
-                  "outTangent": 1.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                },
-                {
-                  "time": 1.0,
-                  "value": 1.0,
-                  "inTangent": 1.0,
-                  "outTangent": 0.0,
-                  "inWeight": 0.0,
-                  "outWeight": 0.0,
-                  "weightedMode": 0,
-                  "tangentMode": 0
-                }
-              ],
-              "length": 2,
-              "preWrapMode": 8,
-              "postWrapMode": 8
-            },
-            "isWaitingUntilFinish": false
-          },
-          {
             "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
-            "bgm": "chap8",
+            "bgm": "chap6",
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {
@@ -93,18 +54,18 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "당연화는 서재를 나와 복도를 걸으며 머릿속이 복잡해졌다. 천마신교와 사천당가의 협약이 그녀를 둘러싼 수많은 의문에 새로운 실마리를 제공했지만, 동시에 더 큰 혼란을 불러일으켰다.",
+          "script": "당연화는 당가주의 고백을 듣고 충격에 휩싸였다. 그녀의 가슴 속에서 분노와 혼란이 뒤섞여 끓어올랐다. 그녀는 자리에서 일어나려다 주먹을 꽉 쥐고 다시 앉았다.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            173
+            186
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 173,
+      "id": 186,
       "x": 3970.5,
       "y": -2604.5,
       "nodeType": 2,
@@ -116,18 +77,18 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "그녀는 문서의 내용을 곱씹으며 발걸음을 멈췄다. 그녀의 뒤를 따라오는 발소리가 들렸다. 돌아보니 염가령이 조용히 다가왔다. 그녀의 얼굴에는 걱정과 결단이 교차하고 있었다.",
+          "script": "당가주는 그녀의 반응을 조용히 지켜보았다.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            174
+            187
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 174,
+      "id": 187,
       "x": 4320.5,
       "y": -2604.5,
       "nodeType": 2,
@@ -137,20 +98,20 @@
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "염가령",
-          "subName": "부드럽게",
-          "script": "당소공녀, 무슨 일이 있었던 거죠?",
+          "name": "당연화",
+          "subName": "분노하며",
+          "script": "그게 무슨 뜻이에요?!",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            175
+            188
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 175,
+      "id": 188,
       "x": 4670.5,
       "y": -2604.5,
       "nodeType": 2,
@@ -162,18 +123,41 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "당연화는 잠시 망설이다가 문서를 내밀었다. 염가령은 문서를 받아들고 눈을 좁혔다.",
+          "script": "당가주는 그녀의 눈을 피하지 않고 담담하게 대답했다.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            176
+            189
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 177,
+      "id": 189,
+      "x": 3620.5,
+      "y": -2204.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당가주",
+          "subName": "조용히",
+          "script": "너의 친부모는 천마신교의 사람이었다. 우리는 너를 데려와 사천당가의 일원으로 길렀다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            190
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 190,
       "x": 3970.5,
       "y": -2204.5,
       "nodeType": 2,
@@ -185,18 +169,18 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "당연화는 고개를 끄덕이며 입술을 굳게 다물었다. 염가령은 문서를 다시 한번 훑어보며 생각에 잠겼다.",
+          "script": "당연화는 믿을 수 없다는 듯 고개를 흔들며 뒷걸음질쳤다. 그녀의 마음속에서 모든 것이 뒤엉키고 있었다.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            178
+            191
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 178,
+      "id": 191,
       "x": 4320.5,
       "y": -2204.5,
       "nodeType": 2,
@@ -206,20 +190,20 @@
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "염가령",
-          "subName": "단호하게",
-          "script": "이제 어떻게 할 생각이세요?",
+          "name": "당연화",
+          "subName": "흔들리며",
+          "script": "거짓말…!",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            179
+            192
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 179,
+      "id": 192,
       "x": 4670.5,
       "y": -2204.5,
       "nodeType": 2,
@@ -231,18 +215,18 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "당연화는 깊은 숨을 내쉬며 결심을 굳혔다.",
+          "script": "당가주는 그녀의 고통을 이해한다는 듯 눈을 감고 무겁게 한숨을 쉬었다.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            180
+            193
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 180,
+      "id": 193,
       "x": 3620.5,
       "y": -1804.5,
       "nodeType": 2,
@@ -252,20 +236,20 @@
       "actionData": {
         "action": {
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "당연화",
-          "subName": "결연하게",
-          "script": "이제는 숨을 곳이 없어요. 진실을 밝히고, 가문을 지켜야 해요.",
+          "name": "당가주",
+          "subName": "나지막하게",
+          "script": "이제 네가 선택할 시간이다. 사천당가에 남을 것인가, 천마신교로 갈 것인가.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            181
+            194
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 181,
+      "id": 194,
       "x": 3970.5,
       "y": -1804.5,
       "nodeType": 2,
@@ -277,42 +261,19 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "염가령은 그녀의 결의에 고개를 끄덕였다.",
+          "script": "당연화는 두 손을 떨며 자신의 운명을 결정해야 하는 순간에 직면했다. 그녀의 마음속에는 가문에 대한 사랑과 배신감이 동시에 자리하고 있었다.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            182
+            195
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 182,
+      "id": 195,
       "x": 4320.5,
-      "y": -1804.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "염가령",
-          "subName": "결단력 있게",
-          "script": "그렇다면, 제가 도울게요. 함께 이 음모를 파헤쳐 봅시다.",
-          "speed": 0.02,
-          "script_2": null,
-          "connections": [
-            183
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 183,
-      "x": 4670.5,
       "y": -1804.5,
       "nodeType": 2,
       "coroutineData": {
@@ -323,20 +284,43 @@
           "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
           "name": "해설자",
           "subName": "",
-          "script": "두 사람은 서로의 결심을 확인하며 서재를 뒤로하고 어둠 속으로 걸어갔다. 그들의 앞에는 가문의 운명을 건 싸움이 기다리고 있었다.",
+          "script": "장면이 어두워지며, 그녀의 선택이 앞으로의 운명을 결정하게 될 것이다.",
           "speed": 0.02,
           "script_2": null,
           "connections": [
-            185
+            196
           ],
           "SelectionCount": 1
         }
       }
     },
     {
+      "id": 196,
+      "x": 4670.5,
+      "y": -1804.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "당연화가 사천당가에 남아 가문을 지키기로 결심한다.",
+            "당연화가 천마신교의 진실을 알아내기 위해 그쪽으로 향한다."
+          ],
+          "connections": [
+            197,
+            197
+          ],
+          "SelectionCount": 2
+        }
+      }
+    },
+    {
       "id": -1,
-      "x": 3326.5,
-      "y": -2498.5,
+      "x": 3318.0,
+      "y": -2448.5,
       "nodeType": 1,
       "coroutineData": {
         "coroutines": []
@@ -345,16 +329,16 @@
         "action": {
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
-            172
+            185
           ],
           "SelectionCount": 1
         }
       }
     },
     {
-      "id": 185,
-      "x": 4961.5,
-      "y": -1684.0,
+      "id": 197,
+      "x": 4989.0,
+      "y": -1747.0,
       "nodeType": 3,
       "coroutineData": {
         "coroutines": [
@@ -372,29 +356,6 @@
           "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
           "connections": [
             -999
-          ],
-          "SelectionCount": 1
-        }
-      }
-    },
-    {
-      "id": 176,
-      "x": 3620.5,
-      "y": -2124.5,
-      "nodeType": 2,
-      "coroutineData": {
-        "coroutines": []
-      },
-      "actionData": {
-        "action": {
-          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
-          "name": "염가령",
-          "subName": "놀라며",
-          "script": "이것은... 정말로 천마신교와의 협약이 맞나요?",
-          "speed": 0.02,
-          "script_2": null,
-          "connections": [
-            177
           ],
           "SelectionCount": 1
         }

@@ -1,7 +1,7 @@
 {
   "position": {
-    "x": -2154.5,
-    "y": 547.0
+    "x": -840.0,
+    "y": 968.0
   },
   "zoomFactor": 1.0,
   "debugNodeIndex": -1,
@@ -87,8 +87,7 @@
             "isWaitingUntilFinish": false
           },
           {
-            "$type": "Dunward.Capricorn.PlayBGMUnit, Assembly-CSharp",
-            "bgm": "chap2",
+            "$type": "Dunward.Capricorn.DeleteAllCharacterUnit, Assembly-CSharp",
             "fade": false,
             "elapsedTime": 0.0,
             "lerpCurve": {

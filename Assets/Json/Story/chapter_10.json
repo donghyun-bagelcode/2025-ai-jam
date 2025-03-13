@@ -1,0 +1,484 @@
+{
+  "position": {
+    "x": -553.0,
+    "y": 594.5
+  },
+  "zoomFactor": 0.25,
+  "debugNodeIndex": -1,
+  "nodes": [
+    {
+      "id": 197,
+      "x": 3620.5,
+      "y": -3004.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": [
+          {
+            "$type": "Dunward.Capricorn.ChangeBackgroundUnit, Assembly-CSharp",
+            "backgroundImage": "CHAPTER_01_2",
+            "position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale": 1.0,
+            "fade": false,
+            "elapsedTime": 0.0,
+            "lerpCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 0.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 0.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": 0,
+                  "tangentMode": 0
+                }
+              ],
+              "length": 2,
+              "preWrapMode": 8,
+              "postWrapMode": 8
+            },
+            "isWaitingUntilFinish": false
+          }
+        ]
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "당연화는 정원에 홀로 서서 깊은 생각에 잠겼다. 그녀의 마음은 무겁고 혼란스러웠다. 사천당가와 천마신교 사이에서 자신의 정체성과 운명을 고민하는 그녀는, 지금까지의 삶이 자신이 원했던 것이 아니었음을 깨달았다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            198
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 198,
+      "x": 3970.5,
+      "y": -3004.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당연화",
+          "subName": "혼잣말",
+          "script": "사천당가도, 천마신교도… 내가 원한 삶이 아니야.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            199
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 199,
+      "x": 4320.5,
+      "y": -3004.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "그 순간, 뒤에서 인기척이 들렸다. 당설화가 조용히 다가왔다. 그녀는 당연화의 고민을 이해한다는 듯 조용히 말을 걸었다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            200
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 200,
+      "x": 4670.5,
+      "y": -3004.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당설화",
+          "subName": "조용히",
+          "script": "네가 고민할 거라 생각했어.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            201
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 201,
+      "x": 3620.5,
+      "y": -2604.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "당연화는 싸늘하게 그녀를 노려보았다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            202
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 202,
+      "x": 3970.5,
+      "y": -2604.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "싸늘하게",
+          "subName": "나를 감시하려고 온 거야?",
+          "script": "",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            203
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 203,
+      "x": 4320.5,
+      "y": -2604.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "당설화는 한숨을 쉬며 고개를 저었다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            204
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 204,
+      "x": 4670.5,
+      "y": -2604.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "한숨을 쉬며",
+          "subName": "아니. 조언을 해주러 왔다.",
+          "script": "",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            205
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 205,
+      "x": 3620.5,
+      "y": -2204.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "당연화는 그녀를 노려보았지만, 당설화는 흔들림 없이 그녀를 바라보았다. 당설화의 눈빛에는 진심이 담겨 있었다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            206
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 206,
+      "x": 3970.5,
+      "y": -2204.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "단호하게",
+          "subName": "어떤 길을 선택하든, 너 혼자 살아남을 수 있어야 해. 네 운명은 네가 정해.",
+          "script": "",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            207
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 207,
+      "x": 4320.5,
+      "y": -2204.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "당연화는 그녀의 말을 곱씹으며 다시 밤하늘을 바라보았다. 그녀의 마음속에서 새로운 결심이 서서히 자리잡기 시작했다.",
+          "script": "",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            208
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 208,
+      "x": 4670.5,
+      "y": -2204.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "당연화는 가방을 챙겨 사천당가의 대문 앞에 섰다. 그녀의 결심은 단호했다. 당가주는 멀리서 그녀를 바라보고 있었다. 그의 표정은 무거웠지만, 더 이상 그녀를 붙잡지 않았다.",
+          "script": "",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            209
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 209,
+      "x": 3620.5,
+      "y": -1804.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "당가주",
+          "subName": "묵묵히",
+          "script": "가겠다는 것이냐.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            210
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 210,
+      "x": 3970.5,
+      "y": -1804.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "당연화는 당가주를 향해 고개를 끄덕였다. 그녀의 눈빛은 결연했다.",
+          "script": "",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            211
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 211,
+      "x": 4320.5,
+      "y": -1804.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "단호하게",
+          "subName": "내 길을 찾을 거예요.",
+          "script": "",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            212
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 212,
+      "x": 4670.5,
+      "y": -1804.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "해설자",
+          "subName": "",
+          "script": "당가주는 더 이상 말하지 않았다. 당연화는 마지막으로 가문을 한 번 돌아보았다. 그녀의 마음속에는 가문에 대한 애정과 배신감이 동시에 자리하고 있었다. 그러나 그녀는 앞으로 걸어갔다.",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            213
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 213,
+      "x": 3620.5,
+      "y": -1404.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.TextTypingUnit, Assembly-CSharp",
+          "name": "",
+          "subName": "",
+          "script": "사천당가를 떠나는 그녀의 뒷모습을 끝으로... To Be Continue",
+          "speed": 0.02,
+          "script_2": null,
+          "connections": [
+            -999
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": -1,
+      "x": 3314.5,
+      "y": -3009.5,
+      "nodeType": 1,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.NoneActionUnit, Assembly-CSharp",
+          "connections": [
+            197
+          ],
+          "SelectionCount": 1
+        }
+      }
+    },
+    {
+      "id": 214,
+      "x": 3946.5,
+      "y": -1399.5,
+      "nodeType": 2,
+      "coroutineData": {
+        "coroutines": []
+      },
+      "actionData": {
+        "action": {
+          "$type": "Dunward.Capricorn.SelectionUnit, Assembly-CSharp",
+          "scripts": [
+            "당연화가 자신의 길을 찾기 위해 새로운 모험을 시작한다.",
+            "당연화가 천마신교에 대해 더 깊이 알아보기 위해 무영을 찾아간다.",
+            "당연화가 사천당가의 비밀을 파헤치기 위해 돌아온다."
+          ],
+          "connections": [
+            -999,
+            -999,
+            -999
+          ],
+          "SelectionCount": 3
+        }
+      }
+    }
+  ]
+}
